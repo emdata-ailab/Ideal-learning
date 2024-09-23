@@ -1,0 +1,2 @@
+sh scripts/car_trainRotate90.sh
+sh scripts/car_trainRotate180.sh

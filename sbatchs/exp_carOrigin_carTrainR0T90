@@ -1,0 +1,2 @@
+sh scripts/car_origin.sh
+sh scripts/car_trainRotate0_test90.sh

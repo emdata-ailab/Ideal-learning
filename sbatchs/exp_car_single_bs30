@@ -1,0 +1,2 @@
+sh scripts/stage0.1/car_ms_Single_bs30.sh
+sh scripts/stage0.1/car_ms_SingleRand_bs30.sh

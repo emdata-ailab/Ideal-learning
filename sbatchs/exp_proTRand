@@ -1,0 +1,2 @@
+sh scripts/product_trainRotateRand_newBS.sh
+sh scripts/product_newBaseline.sh

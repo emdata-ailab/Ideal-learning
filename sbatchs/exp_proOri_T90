@@ -1,0 +1,2 @@
+sh scripts/product_Origin_newBS.sh 
+sh scripts/product_trainRotate90_newBS.sh

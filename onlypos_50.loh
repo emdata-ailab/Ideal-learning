@@ -1,0 +1,531 @@
+Begin Training!
+Learn Rate  	1.0e-03
+Epochs  	20000
+Log Path 	ckps/Self/car/resnet50-DIM-2048-lr1e-3-ratio-0.16-BatchSize-100-S-0.35-M-0.01-freezebn-False-NumInstances-25
+Network 	 resnet50
+Data Set 	 car
+Batch Size  	 100
+Num-Instance  	 25
+Embedded Dimension 	 2048
+freeze_BN 	 False
+Loss Function 	Self
+Alpha 	 0
+Begin to fine tune resnet50 Network
+########################################
+=> using pre-trained model 'resnet50'
+######################################## BatchNorm NOT frozen
+initial model is save at ckps/Self/car/resnet50-DIM-2048-lr1e-3-ratio-0.16-BatchSize-100-S-0.35-M-0.01-freezebn-False-NumInstances-25
+now lr is: 0.001 0.001 0.0
+-- HA-HA-HA-HA-AH-AH-AH-AH --
+Epoch: [001]	Time 0.99	Loss 0.087 	Accuracy 0.004	proxP -0.002	proxN 0.005	realP 0.169	realN 0.072	
+-0.00046785
+Epoch: [001]	Time 0.95	Loss 0.093 	Accuracy 0.003	proxP -0.002	proxN 0.007	realP 0.174	realN 0.076	
+Extract Features: [82/82]	Time 0.093 (0.093)	Data 25.178 (25.178)	
+Recall: Epoch-0 0.3695  0.4793  0.5966  0.7205  0.8256  0.9067
+-0.00046785
+Epoch: [002]	Time 0.80	Loss -2.072 	Accuracy 0.021	proxP 0.041	proxN 0.029	realP 0.245	realN 0.149	
+Epoch: [002]	Time 0.79	Loss -2.059 	Accuracy 0.017	proxP 0.041	proxN 0.031	realP 0.260	realN 0.158	
+-0.00046785
+Epoch: [003]	Time 0.73	Loss -4.048 	Accuracy 0.046	proxP 0.081	proxN 0.048	realP 0.405	realN 0.265	
+Epoch: [003]	Time 0.74	Loss -4.069 	Accuracy 0.041	proxP 0.081	proxN 0.049	realP 0.418	realN 0.270	
+-0.00046785
+Epoch: [004]	Time 0.85	Loss -5.600 	Accuracy 0.080	proxP 0.112	proxN 0.057	realP 0.529	realN 0.318	
+Epoch: [004]	Time 0.84	Loss -5.406 	Accuracy 0.068	proxP 0.108	proxN 0.057	realP 0.531	realN 0.325	
+Epoch: [005]	Time 0.70	Loss -5.984 	Accuracy 0.081	proxP 0.120	proxN 0.062	realP 0.578	realN 0.370	
+-0.00046785
+Epoch: [005]	Time 0.72	Loss -5.935 	Accuracy 0.071	proxP 0.119	proxN 0.062	realP 0.585	realN 0.370	
+-0.00046785
+Epoch: [006]	Time 0.83	Loss -6.966 	Accuracy 0.116	proxP 0.139	proxN 0.063	realP 0.624	realN 0.361	
+Epoch: [006]	Time 0.82	Loss -6.899 	Accuracy 0.110	proxP 0.138	proxN 0.063	realP 0.621	realN 0.364	
+-0.00046785
+Epoch: [007]	Time 0.62	Loss -7.804 	Accuracy 0.137	proxP 0.156	proxN 0.062	realP 0.633	realN 0.350	
+Epoch: [007]	Time 0.64	Loss -7.695 	Accuracy 0.130	proxP 0.154	proxN 0.062	realP 0.631	realN 0.347	
+-0.00046785
+Epoch: [008]	Time 0.75	Loss -8.531 	Accuracy 0.171	proxP 0.171	proxN 0.060	realP 0.632	realN 0.309	
+Epoch: [008]	Time 0.69	Loss -8.250 	Accuracy 0.147	proxP 0.165	proxN 0.060	realP 0.626	realN 0.312	
+-0.00046785
+Epoch: [009]	Time 0.87	Loss -8.799 	Accuracy 0.178	proxP 0.176	proxN 0.058	realP 0.613	realN 0.289	
+Epoch: [009]	Time 0.78	Loss -8.775 	Accuracy 0.171	proxP 0.175	proxN 0.058	realP 0.611	realN 0.287	
+-0.00046785
+Epoch: [010]	Time 0.85	Loss -9.288 	Accuracy 0.201	proxP 0.186	proxN 0.056	realP 0.605	realN 0.255	
+Epoch: [010]	Time 0.77	Loss -9.311 	Accuracy 0.195	proxP 0.186	proxN 0.056	realP 0.605	realN 0.252	
+Extract Features: [82/82]	Time 0.144 (0.144)	Data 24.780 (24.780)	
+Recall: Epoch-9 0.5743  0.6977  0.7971  0.8721  0.9272  0.9606
+-0.00046785
+Epoch: [011]	Time 0.78	Loss -9.941 	Accuracy 0.235	proxP 0.199	proxN 0.053	realP 0.591	realN 0.224	
+Epoch: [011]	Time 0.78	Loss -9.847 	Accuracy 0.222	proxP 0.197	proxN 0.053	realP 0.591	realN 0.220	
+-0.00046785
+Epoch: [012]	Time 0.85	Loss -10.501 	Accuracy 0.248	proxP 0.210	proxN 0.051	realP 0.591	realN 0.189	
+Epoch: [012]	Time 0.84	Loss -10.334 	Accuracy 0.223	proxP 0.207	proxN 0.051	realP 0.587	realN 0.191	
+-0.00046785
+Epoch: [013]	Time 0.75	Loss -10.674 	Accuracy 0.257	proxP 0.213	proxN 0.050	realP 0.564	realN 0.184	
+Epoch: [013]	Time 0.76	Loss -10.611 	Accuracy 0.240	proxP 0.212	proxN 0.049	realP 0.568	realN 0.177	
+-0.00046785
+Epoch: [014]	Time 0.80	Loss -11.536 	Accuracy 0.272	proxP 0.231	proxN 0.046	realP 0.576	realN 0.136	
+Epoch: [014]	Time 0.80	Loss -11.367 	Accuracy 0.264	proxP 0.227	proxN 0.046	realP 0.576	realN 0.134	
+-0.00046785
+Epoch: [015]	Time 0.78	Loss -11.758 	Accuracy 0.300	proxP 0.235	proxN 0.044	realP 0.569	realN 0.109	
+Epoch: [015]	Time 0.78	Loss -11.692 	Accuracy 0.290	proxP 0.234	proxN 0.044	realP 0.565	realN 0.110	
+-0.00046785
+Epoch: [016]	Time 0.74	Loss -12.444 	Accuracy 0.330	proxP 0.249	proxN 0.043	realP 0.560	realN 0.098	
+Epoch: [016]	Time 0.74	Loss -12.203 	Accuracy 0.312	proxP 0.244	proxN 0.043	realP 0.559	realN 0.098	
+Epoch: [017]	Time 0.70	Loss -12.820 	Accuracy 0.345	proxP 0.256	proxN 0.041	realP 0.557	realN 0.084	
+Epoch: [017]	Time 0.71	Loss -12.395 	Accuracy 0.312	proxP 0.248	proxN 0.041	realP 0.554	realN 0.084	
+Epoch: [018]	Time 0.72	Loss -13.172 	Accuracy 0.355	proxP 0.263	proxN 0.041	realP 0.567	realN 0.076	
+-0.00046785
+Epoch: [018]	Time 0.68	Loss -13.113 	Accuracy 0.347	proxP 0.262	proxN 0.040	realP 0.567	realN 0.071	
+Epoch: [019]	Time 0.86	Loss -13.565 	Accuracy 0.359	proxP 0.271	proxN 0.038	realP 0.550	realN 0.052	
+-0.00046785
+Epoch: [019]	Time 0.78	Loss -13.281 	Accuracy 0.327	proxP 0.266	proxN 0.038	realP 0.544	realN 0.057	
+-0.00046785
+Epoch: [020]	Time 0.83	Loss -14.180 	Accuracy 0.362	proxP 0.284	proxN 0.036	realP 0.564	realN 0.034	
+Epoch: [020]	Time 0.75	Loss -13.996 	Accuracy 0.355	proxP 0.280	proxN 0.037	realP 0.555	realN 0.038	
+Extract Features: [82/82]	Time 0.149 (0.149)	Data 26.162 (26.162)	
+Recall: Epoch-19 0.7079  0.8047  0.8760  0.9255  0.9581  0.9769
+-0.00046785
+Epoch: [021]	Time 0.86	Loss -14.568 	Accuracy 0.397	proxP 0.291	proxN 0.036	realP 0.557	realN 0.030	
+Epoch: [021]	Time 0.84	Loss -14.126 	Accuracy 0.371	proxP 0.283	proxN 0.036	realP 0.544	realN 0.035	
+-0.00046785
+Epoch: [022]	Time 0.81	Loss -15.101 	Accuracy 0.429	proxP 0.302	proxN 0.034	realP 0.546	realN 0.028	
+Epoch: [022]	Time 0.80	Loss -14.616 	Accuracy 0.390	proxP 0.292	proxN 0.034	realP 0.541	realN 0.027	
+-0.00046785
+Epoch: [023]	Time 0.79	Loss -15.478 	Accuracy 0.425	proxP 0.310	proxN 0.034	realP 0.549	realN 0.017	
+Epoch: [023]	Time 0.78	Loss -14.991 	Accuracy 0.397	proxP 0.300	proxN 0.034	realP 0.540	realN 0.021	
+-0.00046785
+Epoch: [024]	Time 0.92	Loss -15.858 	Accuracy 0.446	proxP 0.317	proxN 0.032	realP 0.544	realN 0.010	
+Epoch: [024]	Time 0.89	Loss -15.626 	Accuracy 0.422	proxP 0.313	proxN 0.032	realP 0.545	realN 0.009	
+-0.00046785
+Epoch: [025]	Time 0.93	Loss -16.216 	Accuracy 0.460	proxP 0.324	proxN 0.032	realP 0.552	realN 0.002	
+Epoch: [025]	Time 0.90	Loss -15.990 	Accuracy 0.429	proxP 0.320	proxN 0.031	realP 0.551	realN -0.000	
+-0.00046785
+Epoch: [026]	Time 0.89	Loss -16.084 	Accuracy 0.435	proxP 0.322	proxN 0.032	realP 0.535	realN 0.014	
+Epoch: [026]	Time 0.87	Loss -16.127 	Accuracy 0.428	proxP 0.323	proxN 0.031	realP 0.539	realN 0.008	
+-0.00046785
+Epoch: [027]	Time 0.77	Loss -17.111 	Accuracy 0.462	proxP 0.342	proxN 0.029	realP 0.550	realN -0.019	
+Epoch: [027]	Time 0.77	Loss -16.777 	Accuracy 0.445	proxP 0.336	proxN 0.029	realP 0.541	realN -0.012	
+-0.00046785
+Epoch: [028]	Time 0.59	Loss -17.221 	Accuracy 0.470	proxP 0.344	proxN 0.029	realP 0.554	realN -0.010	
+Epoch: [028]	Time 0.62	Loss -16.858 	Accuracy 0.446	proxP 0.337	proxN 0.029	realP 0.550	realN -0.008	
+-0.00046785
+Epoch: [029]	Time 0.71	Loss -17.871 	Accuracy 0.469	proxP 0.357	proxN 0.028	realP 0.558	realN -0.018	
+Epoch: [029]	Time 0.72	Loss -17.414 	Accuracy 0.440	proxP 0.348	proxN 0.029	realP 0.553	realN -0.014	
+-0.00046785
+Epoch: [030]	Time 0.71	Loss -18.196 	Accuracy 0.489	proxP 0.364	proxN 0.028	realP 0.564	realN -0.022	
+Epoch: [030]	Time 0.68	Loss -17.902 	Accuracy 0.478	proxP 0.358	proxN 0.028	realP 0.559	realN -0.018	
+Extract Features: [82/82]	Time 0.146 (0.146)	Data 25.018 (25.018)	
+Recall: Epoch-29 0.7351  0.8234  0.8848  0.9305  0.9577  0.9759
+-0.00046785
+Epoch: [031]	Time 0.90	Loss -18.317 	Accuracy 0.511	proxP 0.366	proxN 0.027	realP 0.562	realN -0.017	
+Epoch: [031]	Time 0.88	Loss -17.932 	Accuracy 0.477	proxP 0.359	proxN 0.028	realP 0.553	realN -0.013	
+-0.00046785
+Epoch: [032]	Time 0.75	Loss -18.902 	Accuracy 0.508	proxP 0.378	proxN 0.027	realP 0.567	realN -0.025	
+Epoch: [032]	Time 0.75	Loss -18.579 	Accuracy 0.492	proxP 0.372	proxN 0.027	realP 0.563	realN -0.020	
+Epoch: [033]	Time 0.80	Loss -19.105 	Accuracy 0.493	proxP 0.382	proxN 0.026	realP 0.573	realN -0.037	
+-0.00046785
+Epoch: [033]	Time 0.79	Loss -19.119 	Accuracy 0.498	proxP 0.382	proxN 0.025	realP 0.567	realN -0.035	
+Epoch: [034]	Time 0.69	Loss -19.732 	Accuracy 0.528	proxP 0.395	proxN 0.025	realP 0.565	realN -0.029	
+-0.00046785
+Epoch: [034]	Time 0.70	Loss -19.095 	Accuracy 0.497	proxP 0.382	proxN 0.025	realP 0.553	realN -0.021	
+-0.00046785
+Epoch: [035]	Time 0.75	Loss -19.616 	Accuracy 0.531	proxP 0.392	proxN 0.026	realP 0.572	realN -0.027	
+Epoch: [035]	Time 0.75	Loss -19.581 	Accuracy 0.515	proxP 0.392	proxN 0.025	realP 0.563	realN -0.026	
+-0.00046785
+Epoch: [036]	Time 0.71	Loss -20.292 	Accuracy 0.511	proxP 0.406	proxN 0.024	realP 0.568	realN -0.029	
+Epoch: [036]	Time 0.72	Loss -20.018 	Accuracy 0.494	proxP 0.400	proxN 0.024	realP 0.565	realN -0.028	
+-0.00046785
+Epoch: [037]	Time 0.59	Loss -21.016 	Accuracy 0.543	proxP 0.420	proxN 0.023	realP 0.574	realN -0.037	
+Epoch: [037]	Time 0.61	Loss -20.516 	Accuracy 0.525	proxP 0.410	proxN 0.023	realP 0.567	realN -0.035	
+-0.00046785
+Epoch: [038]	Time 0.79	Loss -20.431 	Accuracy 0.538	proxP 0.409	proxN 0.024	realP 0.568	realN -0.029	
+Epoch: [038]	Time 0.71	Loss -20.478 	Accuracy 0.528	proxP 0.410	proxN 0.024	realP 0.570	realN -0.030	
+Epoch: [039]	Time 0.91	Loss -21.159 	Accuracy 0.544	proxP 0.423	proxN 0.023	realP 0.564	realN -0.033	
+-0.00046785
+Epoch: [039]	Time 0.84	Loss -20.624 	Accuracy 0.512	proxP 0.412	proxN 0.024	realP 0.558	realN -0.031	
+-0.00046785
+Epoch: [040]	Time 0.93	Loss -21.390 	Accuracy 0.531	proxP 0.428	proxN 0.023	realP 0.569	realN -0.028	
+Epoch: [040]	Time 0.85	Loss -20.821 	Accuracy 0.505	proxP 0.416	proxN 0.023	realP 0.564	realN -0.025	
+Extract Features: [82/82]	Time 0.147 (0.147)	Data 23.586 (23.586)	
+Recall: Epoch-39 0.7321  0.8176  0.8798  0.9242  0.9535  0.9732
+now lr is: 0.0003333333333333333 0.0003333333333333333 0.0
+-0.00046785
+Epoch: [041]	Time 0.72	Loss -22.994 	Accuracy 0.598	proxP 0.460	proxN 0.023	realP 0.597	realN -0.040	
+Epoch: [041]	Time 0.73	Loss -22.808 	Accuracy 0.604	proxP 0.456	proxN 0.023	realP 0.590	realN -0.043	
+-0.00046785
+Epoch: [042]	Time 0.67	Loss -23.792 	Accuracy 0.595	proxP 0.476	proxN 0.020	realP 0.609	realN -0.060	
+Epoch: [042]	Time 0.68	Loss -23.868 	Accuracy 0.608	proxP 0.477	proxN 0.020	realP 0.614	realN -0.062	
+Epoch: [043]	Time 0.74	Loss -24.521 	Accuracy 0.642	proxP 0.490	proxN 0.019	realP 0.619	realN -0.059	
+-0.00046785
+Epoch: [043]	Time 0.74	Loss -23.998 	Accuracy 0.620	proxP 0.480	proxN 0.020	realP 0.609	realN -0.056	
+Epoch: [044]	Time 0.75	Loss -24.948 	Accuracy 0.641	proxP 0.499	proxN 0.019	realP 0.625	realN -0.064	
+-0.00046785
+Epoch: [044]	Time 0.75	Loss -24.481 	Accuracy 0.624	proxP 0.490	proxN 0.020	realP 0.616	realN -0.059	
+-0.00046785
+Epoch: [045]	Time 0.72	Loss -24.644 	Accuracy 0.596	proxP 0.493	proxN 0.019	realP 0.614	realN -0.055	
+Epoch: [045]	Time 0.72	Loss -24.488 	Accuracy 0.616	proxP 0.490	proxN 0.019	realP 0.609	realN -0.055	
+Epoch: [046]	Time 0.74	Loss -24.885 	Accuracy 0.648	proxP 0.498	proxN 0.019	realP 0.615	realN -0.048	
+Epoch: [046]	Time 0.75	Loss -24.676 	Accuracy 0.635	proxP 0.494	proxN 0.019	realP 0.612	realN -0.047	
+-0.00046785
+Epoch: [047]	Time 0.68	Loss -24.663 	Accuracy 0.635	proxP 0.493	proxN 0.019	realP 0.603	realN -0.024	
+Epoch: [047]	Time 0.65	Loss -24.750 	Accuracy 0.628	proxP 0.495	proxN 0.019	realP 0.607	realN -0.030	
+-0.00046785
+Epoch: [048]	Time 0.87	Loss -25.106 	Accuracy 0.634	proxP 0.502	proxN 0.019	realP 0.621	realN -0.049	
+Epoch: [048]	Time 0.81	Loss -25.162 	Accuracy 0.638	proxP 0.503	proxN 0.019	realP 0.619	realN -0.050	
+-0.00046785
+Epoch: [049]	Time 1.10	Loss -25.602 	Accuracy 0.666	proxP 0.512	proxN 0.018	realP 0.614	realN -0.039	
+Epoch: [049]	Time 0.98	Loss -25.150 	Accuracy 0.635	proxP 0.503	proxN 0.018	realP 0.613	realN -0.038	
+-0.00046785
+Epoch: [050]	Time 0.97	Loss -25.176 	Accuracy 0.617	proxP 0.504	proxN 0.019	realP 0.621	realN -0.039	
+Epoch: [050]	Time 0.90	Loss -25.578 	Accuracy 0.637	proxP 0.512	proxN 0.018	realP 0.617	realN -0.038	
+Extract Features: [82/82]	Time 0.149 (0.149)	Data 25.571 (25.571)	
+Recall: Epoch-49 0.7585  0.8375  0.8914  0.9352  0.9630  0.9770
+-0.00046785
+Epoch: [051]	Time 0.65	Loss -25.931 	Accuracy 0.641	proxP 0.519	proxN 0.018	realP 0.625	realN -0.035	
+Epoch: [051]	Time 0.67	Loss -25.674 	Accuracy 0.631	proxP 0.513	proxN 0.018	realP 0.621	realN -0.036	
+-0.00046785
+Epoch: [052]	Time 0.79	Loss -25.670 	Accuracy 0.623	proxP 0.513	proxN 0.018	realP 0.619	realN -0.046	
+Epoch: [052]	Time 0.79	Loss -25.902 	Accuracy 0.630	proxP 0.518	proxN 0.018	realP 0.623	realN -0.047	
+-0.00046785
+Epoch: [053]	Time 0.75	Loss -26.187 	Accuracy 0.632	proxP 0.524	proxN 0.018	realP 0.624	realN -0.043	
+Epoch: [053]	Time 0.75	Loss -25.879 	Accuracy 0.623	proxP 0.518	proxN 0.018	realP 0.627	realN -0.039	
+-0.00046785
+Epoch: [054]	Time 0.76	Loss -25.842 	Accuracy 0.640	proxP 0.517	proxN 0.018	realP 0.624	realN -0.037	
+Epoch: [054]	Time 0.77	Loss -26.087 	Accuracy 0.637	proxP 0.522	proxN 0.018	realP 0.626	realN -0.039	
+-0.00046785
+Epoch: [055]	Time 0.89	Loss -26.715 	Accuracy 0.642	proxP 0.534	proxN 0.017	realP 0.644	realN -0.050	
+Epoch: [055]	Time 0.87	Loss -26.679 	Accuracy 0.632	proxP 0.534	proxN 0.017	realP 0.639	realN -0.047	
+-0.00046785
+Epoch: [056]	Time 0.89	Loss -27.148 	Accuracy 0.647	proxP 0.543	proxN 0.016	realP 0.647	realN -0.043	
+Epoch: [056]	Time 0.87	Loss -26.955 	Accuracy 0.641	proxP 0.539	proxN 0.016	realP 0.642	realN -0.044	
+-0.00046785
+Epoch: [057]	Time 0.60	Loss -27.084 	Accuracy 0.642	proxP 0.542	proxN 0.017	realP 0.653	realN -0.042	
+Epoch: [057]	Time 0.60	Loss -27.155 	Accuracy 0.651	proxP 0.543	proxN 0.017	realP 0.647	realN -0.037	
+Epoch: [058]	Time 0.79	Loss -27.763 	Accuracy 0.677	proxP 0.555	proxN 0.017	realP 0.644	realN -0.041	
+-0.00046785
+Epoch: [058]	Time 0.72	Loss -27.124 	Accuracy 0.645	proxP 0.542	proxN 0.017	realP 0.640	realN -0.038	
+-0.00046785
+Epoch: [059]	Time 0.92	Loss -27.673 	Accuracy 0.669	proxP 0.553	proxN 0.016	realP 0.653	realN -0.048	
+Epoch: [059]	Time 0.83	Loss -27.511 	Accuracy 0.660	proxP 0.550	proxN 0.016	realP 0.644	realN -0.043	
+-0.00046785
+Epoch: [060]	Time 0.87	Loss -27.833 	Accuracy 0.668	proxP 0.557	proxN 0.017	realP 0.647	realN -0.039	
+Epoch: [060]	Time 0.78	Loss -27.590 	Accuracy 0.655	proxP 0.552	proxN 0.017	realP 0.642	realN -0.040	
+Extract Features: [82/82]	Time 0.148 (0.148)	Data 22.258 (22.258)	
+Recall: Epoch-59 0.7421  0.8225  0.8794  0.9250  0.9578  0.9771
+now lr is: 0.0001111111111111111 0.0001111111111111111 0.0
+-0.00046785
+Epoch: [061]	Time 0.76	Loss -27.969 	Accuracy 0.663	proxP 0.559	proxN 0.016	realP 0.638	realN -0.037	
+Epoch: [061]	Time 0.76	Loss -28.001 	Accuracy 0.670	proxP 0.560	proxN 0.016	realP 0.636	realN -0.037	
+-0.00046785
+Epoch: [062]	Time 0.67	Loss -28.574 	Accuracy 0.674	proxP 0.571	proxN 0.016	realP 0.652	realN -0.040	
+Epoch: [062]	Time 0.69	Loss -28.670 	Accuracy 0.681	proxP 0.573	proxN 0.016	realP 0.655	realN -0.043	
+Epoch: [063]	Time 0.81	Loss -29.411 	Accuracy 0.711	proxP 0.588	proxN 0.015	realP 0.655	realN -0.039	
+Epoch: [063]	Time 0.80	Loss -28.711 	Accuracy 0.692	proxP 0.574	proxN 0.015	realP 0.647	realN -0.031	
+Epoch: [064]	Time 0.68	Loss -28.752 	Accuracy 0.683	proxP 0.575	proxN 0.016	realP 0.657	realN -0.031	
+-0.00046785
+Epoch: [064]	Time 0.70	Loss -28.854 	Accuracy 0.682	proxP 0.577	proxN 0.016	realP 0.657	realN -0.028	
+-0.00046785
+Epoch: [065]	Time 0.69	Loss -29.233 	Accuracy 0.677	proxP 0.585	proxN 0.014	realP 0.669	realN -0.040	
+Epoch: [065]	Time 0.71	Loss -29.202 	Accuracy 0.685	proxP 0.584	proxN 0.015	realP 0.664	realN -0.039	
+-0.00046785
+Epoch: [066]	Time 0.75	Loss -29.563 	Accuracy 0.689	proxP 0.591	proxN 0.015	realP 0.679	realN -0.035	
+Epoch: [066]	Time 0.76	Loss -29.671 	Accuracy 0.707	proxP 0.593	proxN 0.015	realP 0.674	realN -0.035	
+-0.00046785
+Epoch: [067]	Time 0.66	Loss -29.463 	Accuracy 0.690	proxP 0.589	proxN 0.014	realP 0.669	realN -0.029	
+Epoch: [067]	Time 0.68	Loss -29.371 	Accuracy 0.688	proxP 0.587	proxN 0.015	realP 0.668	realN -0.031	
+-0.00046785
+Epoch: [068]	Time 0.80	Loss -29.223 	Accuracy 0.684	proxP 0.584	proxN 0.015	realP 0.662	realN -0.028	
+Epoch: [068]	Time 0.72	Loss -29.592 	Accuracy 0.698	proxP 0.592	proxN 0.014	realP 0.670	realN -0.034	
+Epoch: [069]	Time 0.90	Loss -29.462 	Accuracy 0.683	proxP 0.589	proxN 0.015	realP 0.670	realN -0.023	
+-0.00046785
+Epoch: [069]	Time 0.81	Loss -29.650 	Accuracy 0.694	proxP 0.593	proxN 0.015	realP 0.669	realN -0.024	
+-0.00046785
+Epoch: [070]	Time 0.82	Loss -29.318 	Accuracy 0.681	proxP 0.586	proxN 0.015	realP 0.670	realN -0.030	
+Epoch: [070]	Time 0.74	Loss -29.722 	Accuracy 0.697	proxP 0.594	proxN 0.014	realP 0.676	realN -0.030	
+Extract Features: [82/82]	Time 0.139 (0.139)	Data 24.636 (24.636)	
+Recall: Epoch-69 0.7391  0.8201  0.8759  0.9190  0.9496  0.9731
+now lr is: 3.7037037037037037e-05 3.7037037037037037e-05 0.0
+-0.00046785
+Epoch: [071]	Time 0.76	Loss -29.926 	Accuracy 0.722	proxP 0.599	proxN 0.015	realP 0.683	realN -0.032	
+Epoch: [071]	Time 0.76	Loss -29.997 	Accuracy 0.722	proxP 0.600	proxN 0.015	realP 0.678	realN -0.031	
+-0.00046785
+Epoch: [072]	Time 0.75	Loss -30.194 	Accuracy 0.725	proxP 0.604	proxN 0.014	realP 0.684	realN -0.024	
+Epoch: [072]	Time 0.75	Loss -30.047 	Accuracy 0.711	proxP 0.601	proxN 0.014	realP 0.675	realN -0.021	
+-0.00046785
+Epoch: [073]	Time 0.75	Loss -30.409 	Accuracy 0.735	proxP 0.608	proxN 0.014	realP 0.680	realN -0.033	
+Epoch: [073]	Time 0.75	Loss -30.064 	Accuracy 0.719	proxP 0.601	proxN 0.014	realP 0.678	realN -0.028	
+-0.00046785
+Epoch: [074]	Time 0.71	Loss -30.414 	Accuracy 0.721	proxP 0.608	proxN 0.014	realP 0.686	realN -0.032	
+Epoch: [074]	Time 0.72	Loss -30.163 	Accuracy 0.719	proxP 0.603	proxN 0.014	realP 0.679	realN -0.031	
+-0.00046785
+Epoch: [075]	Time 0.76	Loss -30.619 	Accuracy 0.734	proxP 0.612	proxN 0.013	realP 0.689	realN -0.030	
+Epoch: [075]	Time 0.76	Loss -30.050 	Accuracy 0.708	proxP 0.601	proxN 0.014	realP 0.679	realN -0.028	
+-0.00046785
+Epoch: [076]	Time 0.77	Loss -29.775 	Accuracy 0.701	proxP 0.596	proxN 0.014	realP 0.678	realN -0.022	
+Epoch: [076]	Time 0.77	Loss -29.933 	Accuracy 0.705	proxP 0.599	proxN 0.014	realP 0.674	realN -0.023	
+-0.00046785
+Epoch: [077]	Time 0.67	Loss -30.352 	Accuracy 0.720	proxP 0.607	proxN 0.014	realP 0.684	realN -0.024	
+Epoch: [077]	Time 0.68	Loss -30.529 	Accuracy 0.727	proxP 0.611	proxN 0.014	realP 0.693	realN -0.028	
+-0.00046785
+Epoch: [078]	Time 0.69	Loss -30.177 	Accuracy 0.700	proxP 0.604	proxN 0.014	realP 0.684	realN -0.027	
+Epoch: [078]	Time 0.64	Loss -30.432 	Accuracy 0.713	proxP 0.609	proxN 0.013	realP 0.683	realN -0.030	
+-0.00046785
+Epoch: [079]	Time 0.88	Loss -30.259 	Accuracy 0.713	proxP 0.605	proxN 0.014	realP 0.687	realN -0.027	
+Epoch: [079]	Time 0.80	Loss -30.375 	Accuracy 0.732	proxP 0.607	proxN 0.014	realP 0.689	realN -0.028	
+-0.00046785
+Epoch: [080]	Time 0.85	Loss -30.198 	Accuracy 0.708	proxP 0.604	proxN 0.014	realP 0.676	realN -0.004	
+Epoch: [080]	Time 0.78	Loss -30.341 	Accuracy 0.720	proxP 0.607	proxN 0.014	realP 0.680	realN -0.012	
+Extract Features: [82/82]	Time 0.149 (0.149)	Data 27.075 (27.075)	
+Recall: Epoch-79 0.7380  0.8223  0.8781  0.9188  0.9504  0.9722
+now lr is: 1.2345679012345678e-05 1.2345679012345678e-05 0.0
+-0.00046785
+Epoch: [081]	Time 0.85	Loss -30.326 	Accuracy 0.714	proxP 0.607	proxN 0.014	realP 0.691	realN -0.019	
+Epoch: [081]	Time 0.84	Loss -30.327 	Accuracy 0.714	proxP 0.607	proxN 0.014	realP 0.680	realN -0.018	
+-0.00046785
+Epoch: [082]	Time 0.79	Loss -30.605 	Accuracy 0.730	proxP 0.612	proxN 0.014	realP 0.692	realN -0.015	
+Epoch: [082]	Time 0.79	Loss -30.708 	Accuracy 0.730	proxP 0.614	proxN 0.014	realP 0.696	realN -0.020	
+-0.00046785
+Epoch: [083]	Time 0.78	Loss -30.398 	Accuracy 0.727	proxP 0.608	proxN 0.014	realP 0.689	realN -0.026	
+Epoch: [083]	Time 0.78	Loss -30.361 	Accuracy 0.722	proxP 0.607	proxN 0.014	realP 0.687	realN -0.024	
+-0.00046785
+Epoch: [084]	Time 0.77	Loss -30.997 	Accuracy 0.726	proxP 0.620	proxN 0.013	realP 0.693	realN -0.022	
+Epoch: [084]	Time 0.77	Loss -30.590 	Accuracy 0.718	proxP 0.612	proxN 0.014	realP 0.683	realN -0.019	
+-0.00046785
+Epoch: [085]	Time 0.72	Loss -31.262 	Accuracy 0.740	proxP 0.625	proxN 0.013	realP 0.697	realN -0.017	
+Epoch: [085]	Time 0.73	Loss -30.751 	Accuracy 0.732	proxP 0.615	proxN 0.014	realP 0.692	realN -0.016	
+Epoch: [086]	Time 0.79	Loss -30.106 	Accuracy 0.713	proxP 0.602	proxN 0.014	realP 0.683	realN -0.014	
+-0.00046785
+Epoch: [086]	Time 0.79	Loss -30.509 	Accuracy 0.718	proxP 0.610	proxN 0.014	realP 0.685	realN -0.019	
+-0.00046785
+Epoch: [087]	Time 0.68	Loss -30.186 	Accuracy 0.715	proxP 0.604	proxN 0.014	realP 0.679	realN -0.017	
+Epoch: [087]	Time 0.69	Loss -30.460 	Accuracy 0.718	proxP 0.609	proxN 0.014	realP 0.680	realN -0.016	
+-0.00046785
+Epoch: [088]	Time 0.76	Loss -30.580 	Accuracy 0.727	proxP 0.612	proxN 0.013	realP 0.693	realN -0.029	
+Epoch: [088]	Time 0.69	Loss -30.436 	Accuracy 0.725	proxP 0.609	proxN 0.014	realP 0.683	realN -0.022	
+-0.00046785
+Epoch: [089]	Time 0.91	Loss -30.791 	Accuracy 0.730	proxP 0.616	proxN 0.013	realP 0.679	realN -0.022	
+Epoch: [089]	Time 0.82	Loss -30.710 	Accuracy 0.714	proxP 0.614	proxN 0.013	realP 0.689	realN -0.024	
+-0.00046785
+Epoch: [090]	Time 0.85	Loss -30.297 	Accuracy 0.701	proxP 0.606	proxN 0.014	realP 0.685	realN -0.020	
+Epoch: [090]	Time 0.77	Loss -30.688 	Accuracy 0.723	proxP 0.614	proxN 0.014	realP 0.688	realN -0.021	
+Extract Features: [82/82]	Time 0.147 (0.147)	Data 24.026 (24.026)	
+Recall: Epoch-89 0.7347  0.8150  0.8743  0.9176  0.9509  0.9715
+-0.00046785
+Epoch: [091]	Time 0.71	Loss -30.191 	Accuracy 0.700	proxP 0.604	proxN 0.014	realP 0.680	realN -0.011	
+Epoch: [091]	Time 0.72	Loss -30.265 	Accuracy 0.704	proxP 0.605	proxN 0.014	realP 0.677	realN -0.014	
+-0.00046785
+Epoch: [092]	Time 0.92	Loss -30.388 	Accuracy 0.691	proxP 0.608	proxN 0.014	realP 0.685	realN -0.009	
+Epoch: [092]	Time 0.89	Loss -30.687 	Accuracy 0.711	proxP 0.614	proxN 0.013	realP 0.685	realN -0.012	
+Epoch: [093]	Time 0.91	Loss -30.763 	Accuracy 0.739	proxP 0.615	proxN 0.014	realP 0.683	realN -0.022	
+-0.00046785
+Epoch: [093]	Time 0.89	Loss -30.507 	Accuracy 0.717	proxP 0.610	proxN 0.014	realP 0.684	realN -0.022	
+-0.00046785
+Epoch: [094]	Time 0.79	Loss -30.710 	Accuracy 0.727	proxP 0.614	proxN 0.014	realP 0.695	realN -0.019	
+Epoch: [094]	Time 0.79	Loss -30.690 	Accuracy 0.724	proxP 0.614	proxN 0.014	realP 0.692	realN -0.018	
+Epoch: [095]	Time 0.79	Loss -30.420 	Accuracy 0.717	proxP 0.608	proxN 0.014	realP 0.678	realN -0.017	
+-0.00046785
+Epoch: [095]	Time 0.78	Loss -30.649 	Accuracy 0.721	proxP 0.613	proxN 0.014	realP 0.685	realN -0.014	
+-0.00046785
+Epoch: [096]	Time 0.69	Loss -30.608 	Accuracy 0.733	proxP 0.612	proxN 0.014	realP 0.694	realN -0.028	
+Epoch: [096]	Time 0.70	Loss -30.927 	Accuracy 0.742	proxP 0.619	proxN 0.013	realP 0.692	realN -0.026	
+Epoch: [097]	Time 0.72	Loss -30.825 	Accuracy 0.727	proxP 0.616	proxN 0.013	realP 0.684	realN -0.014	
+-0.00046785
+Epoch: [097]	Time 0.70	Loss -30.510 	Accuracy 0.714	proxP 0.610	proxN 0.014	realP 0.684	realN -0.016	
+Epoch: [098]	Time 0.80	Loss -30.871 	Accuracy 0.742	proxP 0.617	proxN 0.013	realP 0.680	realN -0.004	
+-0.00046785
+Epoch: [098]	Time 0.73	Loss -30.621 	Accuracy 0.727	proxP 0.612	proxN 0.013	realP 0.680	realN -0.008	
+-0.00046785
+Epoch: [099]	Time 0.91	Loss -31.027 	Accuracy 0.742	proxP 0.621	proxN 0.013	realP 0.687	realN -0.022	
+Epoch: [099]	Time 0.81	Loss -30.840 	Accuracy 0.725	proxP 0.617	proxN 0.013	realP 0.690	realN -0.025	
+-0.00046785
+Epoch: [100]	Time 0.87	Loss -30.720 	Accuracy 0.726	proxP 0.614	proxN 0.013	realP 0.689	realN -0.026	
+Epoch: [100]	Time 0.79	Loss -30.532 	Accuracy 0.724	proxP 0.611	proxN 0.014	realP 0.685	realN -0.023	
+Extract Features: [82/82]	Time 0.147 (0.147)	Data 24.700 (24.700)	
+Recall: Epoch-99 0.7364  0.8164  0.8739  0.9181  0.9493  0.9705
+-0.00046785
+Epoch: [101]	Time 0.80	Loss -31.219 	Accuracy 0.750	proxP 0.624	proxN 0.014	realP 0.695	realN -0.016	
+Epoch: [101]	Time 0.79	Loss -30.853 	Accuracy 0.729	proxP 0.617	proxN 0.013	realP 0.694	realN -0.017	
+-0.00046785
+Epoch: [102]	Time 0.74	Loss -30.380 	Accuracy 0.709	proxP 0.608	proxN 0.014	realP 0.674	realN -0.009	
+Epoch: [102]	Time 0.74	Loss -30.337 	Accuracy 0.725	proxP 0.607	proxN 0.014	realP 0.679	realN -0.009	
+Epoch: [103]	Time 0.69	Loss -30.983 	Accuracy 0.744	proxP 0.620	proxN 0.013	realP 0.694	realN -0.018	
+-0.00046785
+Epoch: [103]	Time 0.70	Loss -30.712 	Accuracy 0.730	proxP 0.614	proxN 0.013	realP 0.689	realN -0.018	
+-0.00046785
+Epoch: [104]	Time 0.86	Loss -31.485 	Accuracy 0.745	proxP 0.630	proxN 0.013	realP 0.685	realN -0.021	
+Epoch: [104]	Time 0.84	Loss -30.946 	Accuracy 0.737	proxP 0.619	proxN 0.013	realP 0.687	realN -0.012	
+Epoch: [105]	Time 0.77	Loss -31.073 	Accuracy 0.745	proxP 0.621	proxN 0.014	realP 0.689	realN -0.013	
+-0.00046785
+Epoch: [105]	Time 0.77	Loss -30.738 	Accuracy 0.730	proxP 0.615	proxN 0.014	realP 0.692	realN -0.017	
+-0.00046785
+Epoch: [106]	Time 0.74	Loss -31.154 	Accuracy 0.718	proxP 0.623	proxN 0.013	realP 0.684	realN -0.025	
+Epoch: [106]	Time 0.75	Loss -30.841 	Accuracy 0.716	proxP 0.617	proxN 0.013	realP 0.685	realN -0.021	
+-0.00046785
+Epoch: [107]	Time 0.61	Loss -30.970 	Accuracy 0.710	proxP 0.619	proxN 0.013	realP 0.691	realN -0.020	
+Epoch: [107]	Time 0.64	Loss -30.812 	Accuracy 0.719	proxP 0.616	proxN 0.014	realP 0.692	realN -0.022	
+-0.00046785
+Epoch: [108]	Time 0.78	Loss -31.446 	Accuracy 0.750	proxP 0.629	proxN 0.013	realP 0.688	realN -0.011	
+Epoch: [108]	Time 0.71	Loss -30.946 	Accuracy 0.724	proxP 0.619	proxN 0.013	realP 0.688	realN -0.013	
+Epoch: [109]	Time 0.83	Loss -30.931 	Accuracy 0.733	proxP 0.619	proxN 0.013	realP 0.685	realN -0.017	
+Epoch: [109]	Time 0.75	Loss -30.927 	Accuracy 0.738	proxP 0.619	proxN 0.013	realP 0.689	realN -0.021	
+-0.00046785
+Epoch: [110]	Time 0.82	Loss -31.197 	Accuracy 0.730	proxP 0.624	proxN 0.013	realP 0.692	realN -0.010	
+Epoch: [110]	Time 0.75	Loss -31.145 	Accuracy 0.732	proxP 0.623	proxN 0.013	realP 0.692	realN -0.012	
+Extract Features: [82/82]	Time 0.141 (0.141)	Data 27.739 (27.739)	
+Recall: Epoch-109 0.7356  0.8164  0.8732  0.9187  0.9486  0.9711
+-0.00046785
+Epoch: [111]	Time 0.83	Loss -30.677 	Accuracy 0.720	proxP 0.614	proxN 0.013	realP 0.692	realN -0.011	
+Epoch: [111]	Time 0.82	Loss -30.888 	Accuracy 0.726	proxP 0.618	proxN 0.013	realP 0.691	realN -0.013	
+-0.00046785
+Epoch: [112]	Time 0.65	Loss -30.774 	Accuracy 0.729	proxP 0.615	proxN 0.013	realP 0.679	realN -0.023	
+Epoch: [112]	Time 0.67	Loss -30.809 	Accuracy 0.726	proxP 0.616	proxN 0.013	realP 0.689	realN -0.024	
+-0.00046785
+Epoch: [113]	Time 0.68	Loss -30.667 	Accuracy 0.723	proxP 0.613	proxN 0.013	realP 0.686	realN -0.011	
+Epoch: [113]	Time 0.70	Loss -30.853 	Accuracy 0.732	proxP 0.617	proxN 0.013	realP 0.683	realN -0.012	
+-0.00046785
+Epoch: [114]	Time 0.66	Loss -30.707 	Accuracy 0.723	proxP 0.614	proxN 0.014	realP 0.683	realN -0.022	
+Epoch: [114]	Time 0.61	Loss -30.596 	Accuracy 0.724	proxP 0.612	proxN 0.014	realP 0.685	realN -0.023	
+-0.00046785
+Epoch: [115]	Time 0.84	Loss -30.795 	Accuracy 0.720	proxP 0.616	proxN 0.013	realP 0.691	realN -0.016	
+Epoch: [115]	Time 0.76	Loss -31.170 	Accuracy 0.735	proxP 0.623	proxN 0.013	realP 0.693	realN -0.018	
+-0.00046785
+Epoch: [116]	Time 0.96	Loss -31.644 	Accuracy 0.753	proxP 0.633	proxN 0.013	realP 0.698	realN -0.018	
+Epoch: [116]	Time 0.86	Loss -31.289 	Accuracy 0.739	proxP 0.626	proxN 0.013	realP 0.694	realN -0.017	
+-0.00046785
+Epoch: [117]	Time 0.92	Loss -31.254 	Accuracy 0.726	proxP 0.625	proxN 0.013	realP 0.703	realN -0.009	
+Epoch: [117]	Time 0.86	Loss -31.363 	Accuracy 0.736	proxP 0.627	proxN 0.013	realP 0.698	realN -0.009	
+-0.00046785
+Epoch: [118]	Time 0.88	Loss -31.075 	Accuracy 0.733	proxP 0.621	proxN 0.013	realP 0.691	realN -0.016	
+Epoch: [118]	Time 0.79	Loss -31.023 	Accuracy 0.741	proxP 0.620	proxN 0.013	realP 0.693	realN -0.017	
+-0.00046785
+Epoch: [119]	Time 0.94	Loss -31.121 	Accuracy 0.722	proxP 0.622	proxN 0.014	realP 0.695	realN -0.024	
+Epoch: [119]	Time 0.86	Loss -30.888 	Accuracy 0.722	proxP 0.618	proxN 0.014	realP 0.689	realN -0.022	
+-0.00046785
+Epoch: [120]	Time 0.94	Loss -30.727 	Accuracy 0.741	proxP 0.615	proxN 0.013	realP 0.678	realN 0.011	
+Epoch: [120]	Time 0.84	Loss -30.902 	Accuracy 0.745	proxP 0.618	proxN 0.013	realP 0.683	realN 0.006	
+Extract Features: [82/82]	Time 0.133 (0.133)	Data 26.123 (26.123)	
+Recall: Epoch-119 0.7359  0.8163  0.8726  0.9180  0.9496  0.9699
+-0.00046785
+Epoch: [121]	Time 0.77	Loss -31.179 	Accuracy 0.730	proxP 0.624	proxN 0.013	realP 0.696	realN -0.017	
+Epoch: [121]	Time 0.77	Loss -31.230 	Accuracy 0.730	proxP 0.625	proxN 0.013	realP 0.696	realN -0.016	
+-0.00046785
+Epoch: [122]	Time 0.70	Loss -31.273 	Accuracy 0.750	proxP 0.625	proxN 0.013	realP 0.687	realN -0.005	
+Epoch: [122]	Time 0.71	Loss -31.176 	Accuracy 0.742	proxP 0.624	proxN 0.013	realP 0.691	realN -0.009	
+-0.00046785
+Epoch: [123]	Time 0.62	Loss -31.444 	Accuracy 0.732	proxP 0.629	proxN 0.013	realP 0.711	realN -0.018	
+Epoch: [123]	Time 0.63	Loss -31.172 	Accuracy 0.734	proxP 0.623	proxN 0.013	realP 0.700	realN -0.016	
+Epoch: [124]	Time 0.73	Loss -30.916 	Accuracy 0.713	proxP 0.618	proxN 0.014	realP 0.692	realN -0.016	
+-0.00046785
+Epoch: [124]	Time 0.67	Loss -30.673 	Accuracy 0.711	proxP 0.613	proxN 0.014	realP 0.686	realN -0.015	
+Epoch: [125]	Time 0.84	Loss -30.516 	Accuracy 0.723	proxP 0.610	proxN 0.014	realP 0.680	realN -0.018	
+-0.00046785
+Epoch: [125]	Time 0.79	Loss -30.795 	Accuracy 0.726	proxP 0.616	proxN 0.014	realP 0.688	realN -0.020	
+-0.00046785
+Epoch: [126]	Time 0.84	Loss -31.399 	Accuracy 0.740	proxP 0.628	proxN 0.013	realP 0.689	realN -0.017	
+Epoch: [126]	Time 0.82	Loss -30.981 	Accuracy 0.726	proxP 0.620	proxN 0.013	realP 0.686	realN -0.014	
+-0.00046785
+Epoch: [127]	Time 0.70	Loss -30.999 	Accuracy 0.727	proxP 0.620	proxN 0.014	realP 0.704	realN -0.020	
+Epoch: [127]	Time 0.64	Loss -31.052 	Accuracy 0.732	proxP 0.621	proxN 0.014	realP 0.702	realN -0.020	
+-0.00046785
+Epoch: [128]	Time 0.87	Loss -31.969 	Accuracy 0.777	proxP 0.639	proxN 0.013	realP 0.707	realN -0.021	
+Epoch: [128]	Time 0.78	Loss -31.270 	Accuracy 0.738	proxP 0.625	proxN 0.013	realP 0.701	realN -0.019	
+-0.00046785
+Epoch: [129]	Time 0.92	Loss -31.224 	Accuracy 0.738	proxP 0.624	proxN 0.013	realP 0.695	realN -0.012	
+Epoch: [129]	Time 0.89	Loss -30.999 	Accuracy 0.728	proxP 0.620	proxN 0.013	realP 0.692	realN -0.009	
+-0.00046785
+Epoch: [130]	Time 0.92	Loss -30.778 	Accuracy 0.718	proxP 0.616	proxN 0.014	realP 0.696	realN -0.001	
+Epoch: [130]	Time 0.90	Loss -30.950 	Accuracy 0.728	proxP 0.619	proxN 0.013	realP 0.693	realN -0.002	
+Extract Features: [82/82]	Time 0.104 (0.104)	Data 23.292 (23.292)	
+Recall: Epoch-129 0.7330  0.8133  0.8701  0.9144  0.9485  0.9705
+Epoch: [131]	Time 0.73	Loss -31.534 	Accuracy 0.748	proxP 0.631	proxN 0.013	realP 0.700	realN -0.016	
+-0.00046785
+Epoch: [131]	Time 0.74	Loss -31.308 	Accuracy 0.730	proxP 0.626	proxN 0.013	realP 0.701	realN -0.014	
+-0.00046785
+Epoch: [132]	Time 0.71	Loss -31.343 	Accuracy 0.741	proxP 0.627	proxN 0.013	realP 0.699	realN -0.021	
+Epoch: [132]	Time 0.65	Loss -31.423 	Accuracy 0.752	proxP 0.628	proxN 0.013	realP 0.700	realN -0.020	
+Epoch: [133]	Time 0.83	Loss -31.383 	Accuracy 0.749	proxP 0.628	proxN 0.013	realP 0.702	realN -0.019	
+-0.00046785
+Epoch: [133]	Time 0.77	Loss -31.434 	Accuracy 0.750	proxP 0.629	proxN 0.013	realP 0.698	realN -0.016	
+-0.00046785
+Epoch: [134]	Time 0.78	Loss -31.873 	Accuracy 0.737	proxP 0.637	proxN 0.012	realP 0.704	realN -0.017	
+Epoch: [134]	Time 0.77	Loss -31.551 	Accuracy 0.745	proxP 0.631	proxN 0.012	realP 0.706	realN -0.015	
+-0.00046785
+Epoch: [135]	Time 0.74	Loss -31.187 	Accuracy 0.738	proxP 0.624	proxN 0.013	realP 0.693	realN -0.007	
+Epoch: [135]	Time 0.69	Loss -30.978 	Accuracy 0.721	proxP 0.620	proxN 0.013	realP 0.693	realN -0.013	
+-0.00046785
+Epoch: [136]	Time 0.86	Loss -30.860 	Accuracy 0.739	proxP 0.617	proxN 0.013	realP 0.687	realN -0.010	
+Epoch: [136]	Time 0.77	Loss -30.874 	Accuracy 0.730	proxP 0.617	proxN 0.013	realP 0.685	realN -0.009	
+Epoch: [137]	Time 0.85	Loss -31.497 	Accuracy 0.759	proxP 0.630	proxN 0.013	realP 0.700	realN -0.014	
+-0.00046785
+Epoch: [137]	Time 0.77	Loss -31.247 	Accuracy 0.743	proxP 0.625	proxN 0.013	realP 0.693	realN -0.013	
+-0.00046785
+Epoch: [138]	Time 0.88	Loss -31.314 	Accuracy 0.742	proxP 0.626	proxN 0.013	realP 0.687	realN -0.004	
+Epoch: [138]	Time 0.84	Loss -31.110 	Accuracy 0.734	proxP 0.622	proxN 0.013	realP 0.686	realN -0.006	
+-0.00046785
+Epoch: [139]	Time 0.75	Loss -31.490 	Accuracy 0.738	proxP 0.630	proxN 0.013	realP 0.697	realN -0.011	
+Epoch: [139]	Time 0.75	Loss -31.531 	Accuracy 0.746	proxP 0.631	proxN 0.013	realP 0.702	realN -0.008	
+-0.00046785
+Epoch: [140]	Time 0.73	Loss -31.571 	Accuracy 0.742	proxP 0.631	proxN 0.013	realP 0.704	realN -0.010	
+Epoch: [140]	Time 0.74	Loss -31.586 	Accuracy 0.748	proxP 0.632	proxN 0.013	realP 0.699	realN -0.011	
+Extract Features: [82/82]	Time 0.147 (0.147)	Data 25.716 (25.716)	
+Recall: Epoch-139 0.7302  0.8118  0.8709  0.9150  0.9481  0.9695
+-0.00046785
+Epoch: [141]	Time 1.03	Loss -31.253 	Accuracy 0.725	proxP 0.625	proxN 0.013	realP 0.696	realN -0.015	
+Epoch: [141]	Time 0.92	Loss -31.237 	Accuracy 0.733	proxP 0.625	proxN 0.013	realP 0.696	realN -0.014	
+Epoch: [142]	Time 0.93	Loss -31.345 	Accuracy 0.743	proxP 0.627	proxN 0.013	realP 0.693	realN -0.007	
+-0.00046785
+Epoch: [142]	Time 0.83	Loss -31.279 	Accuracy 0.743	proxP 0.626	proxN 0.013	realP 0.691	realN -0.008	
+-0.00046785
+Epoch: [143]	Time 0.94	Loss -31.624 	Accuracy 0.742	proxP 0.632	proxN 0.012	realP 0.701	realN -0.021	
+Epoch: [143]	Time 0.84	Loss -31.568 	Accuracy 0.744	proxP 0.631	proxN 0.013	realP 0.705	realN -0.016	
+-0.00046785
+Epoch: [144]	Time 0.87	Loss -31.720 	Accuracy 0.753	proxP 0.634	proxN 0.013	realP 0.702	realN -0.024	
+Epoch: [144]	Time 0.78	Loss -31.171 	Accuracy 0.740	proxP 0.623	proxN 0.013	realP 0.697	realN -0.015	
+Epoch: [145]	Time 0.87	Loss -31.534 	Accuracy 0.750	proxP 0.631	proxN 0.013	realP 0.697	realN 0.000	
+-0.00046785
+Epoch: [145]	Time 0.79	Loss -31.324 	Accuracy 0.735	proxP 0.626	proxN 0.013	realP 0.696	realN -0.003	
+-0.00046785
+Epoch: [146]	Time 0.86	Loss -31.041 	Accuracy 0.732	proxP 0.621	proxN 0.013	realP 0.696	realN -0.013	
+Epoch: [146]	Time 0.78	Loss -31.358 	Accuracy 0.745	proxP 0.627	proxN 0.013	realP 0.693	realN -0.011	
+-0.00046785
+Epoch: [147]	Time 0.88	Loss -31.323 	Accuracy 0.726	proxP 0.626	proxN 0.013	realP 0.695	realN -0.009	
+Epoch: [147]	Time 0.79	Loss -31.186 	Accuracy 0.728	proxP 0.624	proxN 0.013	realP 0.696	realN -0.008	
+-0.00046785
+Epoch: [148]	Time 0.92	Loss -30.938 	Accuracy 0.718	proxP 0.619	proxN 0.013	realP 0.694	realN -0.015	
+Epoch: [148]	Time 0.89	Loss -31.253 	Accuracy 0.733	proxP 0.625	proxN 0.013	realP 0.696	realN -0.019	
+-0.00046785
+Epoch: [149]	Time 0.65	Loss -31.527 	Accuracy 0.754	proxP 0.631	proxN 0.013	realP 0.695	realN -0.002	
+Epoch: [149]	Time 0.60	Loss -31.275 	Accuracy 0.740	proxP 0.625	proxN 0.013	realP 0.695	realN -0.006	
+-0.00046785
+Epoch: [150]	Time 0.92	Loss -31.413 	Accuracy 0.739	proxP 0.628	proxN 0.013	realP 0.698	realN -0.004	
+Epoch: [150]	Time 0.82	Loss -31.527 	Accuracy 0.734	proxP 0.631	proxN 0.013	realP 0.704	realN -0.007	
+Extract Features: [82/82]	Time 0.146 (0.146)	Data 23.816 (23.816)	
+Recall: Epoch-149 0.7326  0.8148  0.8702  0.9135  0.9483  0.9699
+Epoch: [151]	Time 0.69	Loss -31.286 	Accuracy 0.746	proxP 0.626	proxN 0.013	realP 0.693	realN -0.001	
+-0.00046785
+Epoch: [151]	Time 0.70	Loss -31.341 	Accuracy 0.738	proxP 0.627	proxN 0.013	realP 0.691	realN -0.004	
+Epoch: [152]	Time 0.72	Loss -30.882 	Accuracy 0.722	proxP 0.618	proxN 0.013	realP 0.700	realN -0.010	
+-0.00046785
+Epoch: [152]	Time 0.73	Loss -31.423 	Accuracy 0.737	proxP 0.628	proxN 0.013	realP 0.695	realN -0.007	
+-0.00046785
+Epoch: [153]	Time 0.76	Loss -31.765 	Accuracy 0.754	proxP 0.635	proxN 0.013	realP 0.700	realN 0.001	
+Epoch: [153]	Time 0.76	Loss -31.551 	Accuracy 0.742	proxP 0.631	proxN 0.013	realP 0.703	realN 0.002	
+-0.00046785
+Epoch: [154]	Time 0.83	Loss -30.551 	Accuracy 0.701	proxP 0.611	proxN 0.013	realP 0.684	realN -0.006	
+Epoch: [154]	Time 0.82	Loss -31.057 	Accuracy 0.715	proxP 0.621	proxN 0.013	realP 0.686	realN -0.010	
+Epoch: [155]	Time 0.83	Loss -31.715 	Accuracy 0.753	proxP 0.634	proxN 0.012	realP 0.694	realN -0.013	
+-0.00046785
+Epoch: [155]	Time 0.82	Loss -31.442 	Accuracy 0.738	proxP 0.629	proxN 0.013	realP 0.695	realN -0.014	
+-0.00046785
+Epoch: [156]	Time 0.65	Loss -31.053 	Accuracy 0.724	proxP 0.621	proxN 0.013	realP 0.702	realN -0.016	
+Epoch: [156]	Time 0.67	Loss -31.472 	Accuracy 0.740	proxP 0.629	proxN 0.013	realP 0.702	realN -0.017	
+-0.00046785
+Epoch: [157]	Time 0.65	Loss -31.350 	Accuracy 0.727	proxP 0.627	proxN 0.013	realP 0.695	realN -0.005	
+Epoch: [157]	Time 0.67	Loss -31.492 	Accuracy 0.746	proxP 0.630	proxN 0.013	realP 0.697	realN -0.008	
+-0.00046785
+Epoch: [158]	Time 0.70	Loss -31.495 	Accuracy 0.750	proxP 0.630	proxN 0.013	realP 0.698	realN -0.005	
+Epoch: [158]	Time 0.68	Loss -31.705 	Accuracy 0.744	proxP 0.634	proxN 0.013	realP 0.699	realN -0.003	
+-0.00046785
+Epoch: [159]	Time 0.81	Loss -31.700 	Accuracy 0.732	proxP 0.634	proxN 0.012	realP 0.701	realN -0.018	
+Epoch: [159]	Time 0.81	Loss -31.382 	Accuracy 0.727	proxP 0.628	proxN 0.012	realP 0.697	realN -0.017	
+-0.00046785
+Epoch: [160]	Time 0.95	Loss -31.827 	Accuracy 0.745	proxP 0.637	proxN 0.013	realP 0.702	realN -0.014	
+Epoch: [160]	Time 0.92	Loss -31.514 	Accuracy 0.740	proxP 0.630	proxN 0.013	realP 0.698	realN -0.009	
